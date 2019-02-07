@@ -1,0 +1,230 @@
+html, body
+{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+body
+{
+	background-color: #333333;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 0.8em;
+	text-align: center;
+	color: #333;
+	line-height: 1.5em;
+}
+div.left
+{
+	float:left;
+}
+div.right
+{
+	float:right;
+	margin: 0 0 0 10px;
+}
+div.clear
+{
+	clear:both;
+}
+img
+{
+	border: none;
+}
+div#content
+{
+	text-align:left;
+	margin: 0px auto;
+	background-color: #fff;
+	width: 1000px;
+}
+div#top
+{
+  background-image: url(../images/header-background-dim.jpg);
+  background-repeat: no-repeat;
+	height: 273px; 
+	padding-left:25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	background-color: #000;
+}
+div#menu {
+    height: 26px;
+    font-weight: bold;
+    padding-top: 7px;
+    color: #aa4400;
+    margin-left: -26px;
+    margin-right: -26px;
+    background: #ffffff99;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+div#menu a, div#menu a:visited, div#menu a:link, div#menu a:active, div#menu a:hover
+{
+	display: block;
+	float:left;
+	margin-right: 25px;
+	color:#aa4400;
+	text-decoration: none;
+}
+div#menu a:hover
+{
+	color:#ffb380;
+}
+div#main
+{
+	padding: 25px;
+}
+div#footer
+{
+	width: 950px;
+	padding: 25px;
+	border-top: solid 1px #2A465E;
+	color: #333;
+	font-size: 0.8em;
+}
+div#footer a, div#footer a:visited, div#footer a:link, div#footer a:active, div#footer a:hover
+{
+	color:#333;
+	text-decoration: none;
+}
+div#footer a:hover
+{
+	color:#aa4400;
+	text-decoration: underline;
+}
+div#sponsors
+{
+	width: 950px;
+	padding: 25px;
+	border-top: solid 1px #2A465E;
+	color: #333;
+	font-size: 0.8em;
+}
+div.sponsor
+{
+	float:right;
+	margin: 10px 0 0 15px;
+}
+
+h1, h2, h3
+{
+	margin: 0px auto;
+	padding: 0px;
+	color:#aa4400;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+h2
+{
+  margin-top: 1em;
+	font-size: 1em;
+}
+h3
+{
+    font-size: 0.9em;
+}
+p
+{
+	margin: 0px auto;
+	padding: 0px;	
+	margin-top: 0.75em;
+}
+a, a:visited, a:link, a:active, a:hover
+{
+	color: #3F4C6B;
+	text-decoration: underline;
+}
+a:hover
+{
+	color: #aa4400;
+}
+li
+{
+	margin-bottom: 10px;
+}
+img
+{
+    border: 0px;
+}
+td.lunch
+{
+background-color:#EBEBE0;
+}
+td.geo
+{
+background-color:#FFE6E6;
+}
+td.env
+{
+background-color:#FFFFB2;
+}
+td.hydro
+{
+background-color:#EBFFE0;
+}
+td.seds
+{
+background-color:#EBCCF5;
+}
+td.vgp
+{
+background-color:#CCE0EB;
+}
+td.break
+{
+background-color:#EBEBE0;
+}
+td.reception
+{
+background-color:#EBEBE0;
+}
+td.dinner
+{
+background-color:#aaaaaa;
+}
+td.reg
+{
+background-color:#EBEBE0;
+}
+td.intro
+{
+background-color:#FFB403;
+}
+td.sources
+{
+background-color:#FFB403;
+}
+td.eruptions
+{
+background-color:#FFB403;
+}
+td.RIP
+{
+background-color:#FFB403;
+}
+td.award
+{
+background-color:#FFB403;
+}
+td.advances
+{
+background-color:#FFB403;
+}
+td.society
+{
+background-color:#FFB403;
+}
+td.magma
+{
+background-color:#FFB403;
+}
+td.closing
+{
+background-color:#FFB403;
+}
+td.vtop
+{
+vertical-align:top;
+}
