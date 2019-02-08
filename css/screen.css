@@ -109,12 +109,11 @@ div.sponsor
 
 h1, h2, h3
 {
-	margin: 0px auto;
+	margin: 2em 0 0.5em;
 	padding: 0px;
 	color:#aa4400;
 	font-size: 1.2em;
 	font-weight: bold;
-	margin-bottom: 0.5em;
 }
 h2
 {
@@ -147,6 +146,9 @@ li
 img
 {
     border: 0px;
+}
+table#timetable {
+  text-align: center;
 }
 td.lunch
 {
@@ -187,6 +189,8 @@ background-color:#aaaaaa;
 td.reg
 {
 background-color:#EBEBE0;
+font-weight: bold;
+text-align: center;
 }
 td.intro
 {
