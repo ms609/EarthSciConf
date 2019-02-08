@@ -84,6 +84,7 @@ div#menu {
     background: #ffffff99;
     padding-left: 26px;
     padding-right: 26px;
+    clear: both;
 }
 
 div#menu a, div#menu a:visited, div#menu a:link, div#menu a:active, div#menu a:hover
@@ -101,7 +102,39 @@ div#menu a:hover
 div#main
 {
 	padding: 25px;
+  clear: both;
 }
+
+div#sponsor-logos {
+  height: 106px;
+  vertical-align: middle;
+}
+div#sponsor-logos:before{
+  content: "Supported by:";
+  display: block;
+}
+a.logo:hover, a.logo:visited, a.lgo:active, a.logo:link{
+  text-decoration: none;
+}
+a.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 18px;
+  height: 100%;
+}
+a.logo:before,
+a.logo_before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;  
+}
+
+div#sponsor-logos a img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 div#footer
 {
 	padding: 36px;
@@ -121,6 +154,7 @@ div#footer a:hover
 }
 div#sponsors
 {
+  text-align: center;
 	width: 950px;
 	padding: 25px;
 	border-top: solid 1px #2A465E;
