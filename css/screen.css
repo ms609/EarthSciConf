@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
 html, body
 {
 	margin: 0px auto;
@@ -13,6 +15,29 @@ body
 	color: #333;
 	line-height: 1.5em;
 }
+
+div#banner {
+  height:240px;
+}
+
+div#banner a:link, div#banner a:active, div#banner a:visited, div#banner a:hover {
+  font-family: 'Crimson Text', serif;
+  color: white !important;
+  text-decoration: none;
+}
+
+div#banner span {
+  display: block;
+  margin: 22px;
+}
+
+span.banner1 {
+  font-size: 3em;
+}
+span.banner2 {
+  font-size: 2em;
+}
+
 div.left
 {
 	float:left;
