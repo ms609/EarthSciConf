@@ -16,30 +16,6 @@ body
 	line-height: 18px; /* We use a 9px baseline grid; all line heights should be multiples of 9 */
 }
 
-div#banner {
-  height:240px;
-}
-
-div#banner a:link, div#banner a:active, div#banner a:visited, div#banner a:hover {
-  font-family: 'Crimson Text', serif;
-  color: white !important;
-  text-decoration: none;
-}
-
-div#banner span {
-  display: block;
-}
-
-span.banner1 {
-  margin-top: 18px;
-  font-size: 3em;
-  line-height: 54px;
-}
-span.banner2 {
-  font-size: 2em;
-  line-height: 36px;
-}
-
 div.left
 {
 	float:left;
@@ -62,36 +38,90 @@ div#content
 	text-align:left;
 	margin: 0px auto;
 	background-color: #fff;
-	width: 1000px;
+	max-width: 1000px;
 }
 div#top
 {
-  background-image: url(../images/header-background-dim.jpg);
+  background-image: url(../images/header-background.jpg);
   background-repeat: no-repeat;
-	height: 273px; 
-	padding-left:25px;
-	padding-right: 25px;
-	padding-top: 25px;
+	height: 279px; 
+	padding-left: 18px;
+	padding-right: 18px;
+  padding-top: 18px;
 	background-color: #000;
+  position: relative;
 }
+
+a#banner-text:link, a#banner-text:active, a#banner-text:visited, a#banner-text:hover {
+  font-family: 'Crimson Text', serif;
+  color: white !important;
+  text-decoration: none;
+  display: block;
+  margin-top: 18px;
+}
+
+a#banner-text span {
+  display: block;
+  padding-left: 9px;
+}
+
+span.banner1, span.banner1::after  {
+  font-size: 36px;
+  line-height: 54px;
+}
+span.banner1::after {
+  content: "Department of Earth Sciences Conference"
+}
+span.banner2, span.banner2::before {
+  line-height: 54px;
+  font-size: 27px;
+}
+span.banner2::before {
+  font-size: 27px;
+  content: "11th June 2019, Durham University"
+}
+
+a#du-logo{
+  background-image: url(../images/DurhamUniversityLogo_WHITE.png);
+  background-repeat: no-repeat;
+  background-size: auto 54px;
+  position: absolute;
+  width: 129px;
+  top: 18px;
+  right: 18px;
+  height: 54px;
+}
+
+a#ahgs-logo {
+  background-image: url(../images/ahgs-logo.png);
+  background-repeat: no-repeat;
+  background-size: auto 45px;
+  position: absolute;
+  height: 54px;
+  width: 91.5px;
+  top: 81px;
+  right: 18px;
+}
+
 div#menu {
-    height: 26px;
-    font-weight: bold;
-    padding-top: 7px;
-    color: #aa4400;
-    margin-left: -25px;
-    margin-right: -25px;
-    background: #ffffff99;
-    padding-left: 26px;
-    padding-right: 26px;
-    clear: both;
+  position: absolute;
+  bottom: 0;
+  right:0;
+  left: 0;
+  line-height: 36px;
+  font-weight: bold;
+  color: #aa4400;
+  background: #ffffff99;
+  padding-left: 27px;
+  padding-right: 27px;
+  clear: both;
 }
 
 div#menu a, div#menu a:visited, div#menu a:link, div#menu a:active, div#menu a:hover
 {
 	display: block;
 	float:left;
-	margin-right: 25px;
+	margin-right: 27px;
 	color:#aa4400;
 	text-decoration: none;
 }
@@ -99,14 +129,15 @@ div#menu a:hover
 {
 	color:#ffb380;
 }
+
 div#main
 {
-	padding: 25px;
+	padding: 0px 27px 27px;
   clear: both;
 }
 
 div#sponsor-logos {
-  height: 106px;
+  min-height: 106px;
   vertical-align: middle;
 }
 div#sponsor-logos:before{
@@ -137,15 +168,25 @@ div#sponsor-logos a img {
 
 div#footer
 {
-	padding: 36px;
+  background: url(../images/footer-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1000px auto;
 	border-top: solid 1px #2A465E;
 	color: #333;
+  height: 300px;
 	font-size: 0.8em;
+  position: relative;
 }
 div#footer a, div#footer a:visited, div#footer a:link, div#footer a:active, div#footer a:hover
 {
-	color:#333;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+	margin: 36px;
+  color: white;
 	text-decoration: none;
+  text-shadow: 0 0 4px black;
 }
 div#footer a:hover
 {
@@ -155,8 +196,8 @@ div#footer a:hover
 div#sponsors
 {
   text-align: center;
-	width: 950px;
-	padding: 25px;
+	max-width: 950px;
+	padding: 27px;
 	border-top: solid 1px #2A465E;
 	color: #333;
 	font-size: 0.8em;
@@ -171,9 +212,17 @@ h1, h2, h3
 {
 	margin: 27px 0 9px;
 	padding: 0px;
-	color:#aa4400;
+	color: #aa4400;
 	font-size: 1.2em;
 	font-weight: bold;
+}
+
+h1 {
+  background: #aa4400;
+  margin-left: -27px;
+  margin-right: -27px;
+  padding: 9px 27px;
+  color: white;
 }
 h2
 {
@@ -232,6 +281,57 @@ td.reg
 {
   font-weight: bold;
   text-align: center;
+}
+
+div#poster-key {
+  margin-right: -9px;
+}
+
+div.keybox {
+  line-height: 27px;
+  margin: 9px;
+  padding-left: 9px;
+  border-left: solid 45px;
+  float: left;
+}
+
+div.intro,
+div.sources,
+div.eruptions,
+div.RIP,
+div.award, 
+div.advances, div.society, div.magma,
+div.closing
+{
+  border-color:#FFB403;
+}
+
+div.lunch, div.break, div.reception, div.reg
+{
+  border-color:#EBEBE0;
+}
+div.geo {
+  border-color: #ffe6e6;
+}
+div.env
+{
+  border-color:#FFFFB2;
+}
+div.hydro
+{
+  border-color:#EBFFE0;
+}
+div.seds
+{
+  border-color:#EBCCF5;
+}
+div.vgp
+{
+  border-color:#CCE0EB;
+}
+div.dinner
+{
+  border-color:#aaaaaa;
 }
 
 td.geo
