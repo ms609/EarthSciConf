@@ -326,16 +326,21 @@ div.sess4, td.sess4 {
 }
 
 @media print {
-  div#menu, div#menu *,a#ahgs-logo {
+  div#menu, div#menu *, a#ahgs-logo {
     display: none !important;
   }
   
   a#du-logo {
-    background-image: url(../images/DurhamUniversityLogo_INK_RGB.png) !important;
+    z-index: -1;
+    -webkit-print-color-adjust: exact;
+    display: list-item;
+    list-style-image: url("../images/DurhamUniversityLogo_INK_RGB.png");
+    list-style-position: inside;
   }
   
   div#top, div#footer {
     height: inherit;
+    background: transparent !important;
   }
   
   div #footer a {
