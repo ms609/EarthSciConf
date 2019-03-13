@@ -326,16 +326,8 @@ div.sess4, td.sess4 {
 }
 
 @media print {
-  div#menu, div#menu *, a#ahgs-logo {
+  div#menu, div#menu *, a#ahgs-logo, a#du-logo {
     display: none !important;
-  }
-  
-  a#du-logo {
-    z-index: -1;
-    -webkit-print-color-adjust: exact;
-    display: list-item;
-    list-style-image: url("../images/DurhamUniversityLogo_INK_RGB.png");
-    list-style-position: inside;
   }
   
   div#top, div#footer {
