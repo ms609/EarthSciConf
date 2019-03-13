@@ -295,11 +295,13 @@ div.keybox {
   float: left;
 }
 
-div.intro, div.closing
-{
+div.intro, div.closing {
   border-color:#FFB403;
 }
 
+td.intro, td.closing {
+  background-color:#FFB403;
+}
 
 td.sess1, td.sess2, td.sess3, td.sess4 {
   border-left: 18px solid;
@@ -311,7 +313,7 @@ div.lunch, div.break, div.reception, div.reg
   border-color:#EBEBE0;
 }
 div.sess1, td.sess1 {
-  border-color:#e69f00;
+  border-color:#ffb30f;
 }
 div.sess2, td.sess2 {
   border-color: #56b4e9;
@@ -321,13 +323,4 @@ div.sess3, td.sess3 {
 }
 div.sess4, td.sess4 {
   border-color: #f0e442;
-}
-
-td.intro, td.closing
-{
-  background-color:#FFB403;
-}
-td.vtop
-{
-  vertical-align:top;
 }
