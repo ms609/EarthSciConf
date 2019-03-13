@@ -324,3 +324,22 @@ div.sess3, td.sess3 {
 div.sess4, td.sess4 {
   border-color: #f0e442;
 }
+
+@media print {
+  div#menu, div#menu *,a#ahgs-logo {
+    display: none !important;
+  }
+  
+  a#du-logo {
+    background-image: url(../images/DurhamUniversityLogo_INK_RGB.png) !important;
+  }
+  
+  div#top, div#footer {
+    height: inherit;
+  }
+  
+  div #footer a {
+    text-shadow: none !important;
+    position: relative !important;
+  }
+}
