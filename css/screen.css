@@ -295,76 +295,35 @@ div.keybox {
   float: left;
 }
 
-div.intro,
-div.sources,
-div.eruptions,
-div.RIP,
-div.award, 
-div.advances, div.society, div.magma,
-div.closing
+div.intro, div.closing
 {
   border-color:#FFB403;
+}
+
+
+td.sess1, td.sess2, td.sess3, td.sess4 {
+  border-left: 18px solid;
+  padding-right: 18px;
 }
 
 div.lunch, div.break, div.reception, div.reg
 {
   border-color:#EBEBE0;
 }
-div.geo {
-  border-color: #ffe6e6;
+div.sess1, td.sess1 {
+  border-color:#e69f00;
 }
-div.env
-{
-  border-color:#FFFFB2;
+div.sess2, td.sess2 {
+  border-color: #56b4e9;
 }
-div.hydro
-{
-  border-color:#EBFFE0;
+div.sess3, td.sess3 {
+  border-color: #009e73;
 }
-div.seds
-{
-  border-color:#EBCCF5;
-}
-div.vgp
-{
-  border-color:#CCE0EB;
-}
-div.dinner
-{
-  border-color:#aaaaaa;
+div.sess4, td.sess4 {
+  border-color: #f0e442;
 }
 
-td.geo
-{
-  background-color:#FFE6E6;
-}
-td.env
-{
-  background-color:#FFFFB2;
-}
-td.hydro
-{
-  background-color:#EBFFE0;
-}
-td.seds
-{
-  background-color:#EBCCF5;
-}
-td.vgp
-{
-  background-color:#CCE0EB;
-}
-td.dinner
-{
-  background-color:#aaaaaa;
-}
-td.intro,
-td.sources,
-td.eruptions,
-td.RIP,
-td.award, 
-td.advances, td.society, td.magma,
-td.closing
+td.intro, td.closing
 {
   background-color:#FFB403;
 }
