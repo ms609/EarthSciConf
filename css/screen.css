@@ -111,7 +111,7 @@ div#menu {
   line-height: 36px;
   font-weight: bold;
   color: #aa4400;
-  background: #ffffff99;
+  background: rgba(255, 255, 255, 0.6);
   padding-left: 27px;
   padding-right: 27px;
   clear: both;
