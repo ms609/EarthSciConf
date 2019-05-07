@@ -261,7 +261,7 @@ table#timetable {
 }
 
 tr {
-  height: 16px;  
+  height: 16px;
 }
 tr.double {
   height: 34px;
@@ -281,6 +281,14 @@ td.reg
 {
   font-weight: bold;
   text-align: center;
+}
+
+span.talk-title {
+  display: block;
+}
+span.speaker {
+  display: block;
+  font-style: italic;
 }
 
 div#poster-key {
@@ -305,7 +313,7 @@ td.intro, td.closing {
 
 td.sess1, td.sess2, td.sess3, td.sess4 {
   border-left: 18px solid;
-  padding-right: 18px;
+  padding: 4px 18px 5px 2px;
 }
 
 div.lunch, div.break, div.reception, div.reg
