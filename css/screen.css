@@ -103,6 +103,21 @@ a#ahgs-logo {
   right: 18px;
 }
 
+div#menu a#hashtag {
+  float: right;
+  
+  background: url(../images/Twitter_Logo_Blue.png) no-repeat;
+  background-size: 36px;
+  line-height: 36px;
+  padding-left: 36px;
+  margin-right: 0;
+  
+  color: white;
+  font-size: 14px;
+}
+
+
+
 div#menu {
   position: absolute;
   bottom: 0;
@@ -120,14 +135,14 @@ div#menu {
 div#menu a, div#menu a:visited, div#menu a:link, div#menu a:active, div#menu a:hover
 {
 	display: block;
-	float:left;
+	float: left;
 	margin-right: 27px;
-	color:#aa4400;
+	color: #aa4400;
 	text-decoration: none;
 }
 div#menu a:hover
 {
-	color:#ffb380;
+	color: #ffb380;
 }
 
 div#main
