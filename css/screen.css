@@ -116,7 +116,9 @@ div#menu a#hashtag {
   font-size: 14px;
 }
 
-
+div#menu a#hashtag:hover {
+  color: #27a0f2;
+}
 
 div#menu {
   position: absolute;
