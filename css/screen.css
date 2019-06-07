@@ -254,7 +254,8 @@ h1, h2, h3
 h1 {
   background: #aa4400;
   margin-left: -27px;
-  margin-right: -27px;
+  margin-right: 0;
+  border-bottom-right-radius: 54px;
   padding: 18px 27px;
   font-size: 18px;
   color: white;
