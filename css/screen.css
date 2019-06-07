@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
 html, body
@@ -9,7 +10,7 @@ html, body
 body
 {
 	background-color: #333333;
-	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	font-family: 'Open Sans', Arial, Helvetica, Sans-Serif;
 	font-size: 13px;
 	text-align: center;
 	color: #333;
@@ -46,7 +47,7 @@ div#top
   background-repeat: no-repeat;
 	height: 279px; 
 	padding-left: 18px;
-	padding-right: 18px;
+	padding-right: 162px;
   padding-top: 18px;
 	background-color: #000;
   position: relative;
@@ -87,8 +88,8 @@ a#du-logo{
   background-size: auto 54px;
   position: absolute;
   width: 129px;
-  top: 18px;
-  right: 18px;
+  top: 27px;
+  right: 27px;
   height: 54px;
 }
 
@@ -99,8 +100,24 @@ a#ahgs-logo {
   position: absolute;
   height: 54px;
   width: 91.5px;
-  top: 81px;
+  top: 99px;
+  right: 52px;
+}
+
+a#hashtag-logo {
+  position: absolute;
+  bottom: 0px;
   right: 18px;
+  
+  background: url(../images/Twitter_Logo_WhiteOnImage.png) no-repeat;
+  background-size: 36px;
+  line-height: 36px;
+  padding-left: 36px;
+  
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 div#menu a#hashtag {
@@ -113,7 +130,6 @@ div#menu a#hashtag {
   margin-right: 0;
   
   color: white;
-  font-size: 14px;
 }
 
 div#menu a#hashtag:hover {
@@ -127,6 +143,7 @@ div#menu {
   left: 0;
   line-height: 36px;
   font-weight: bold;
+  font-size: 15px;
   color: #aa4400;
   background: rgba(255, 255, 255, 0.6);
   padding-left: 27px;
@@ -238,12 +255,13 @@ h1 {
   background: #aa4400;
   margin-left: -27px;
   margin-right: -27px;
-  padding: 9px 27px;
+  padding: 18px 27px;
+  font-size: 18px;
   color: white;
 }
 h2
 {
-	font-size: 1em;
+	font-size: 15px;
 }
 h3
 {
