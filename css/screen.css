@@ -79,7 +79,7 @@ span.banner2, span.banner2::before {
 }
 span.banner2::before {
   font-size: 27px;
-  content: "9th June 2020, Durham University"
+  content: "8th\2212 9th June 2021, Durham University"
 }
 
 a#du-logo{
@@ -167,6 +167,13 @@ div#menu a:hover
 div#main
 {
 	padding: 0px 27px 27px;
+  clear: both;
+}
+
+div#main-content, span.h1-pad
+{
+	padding: 0px 12%;
+  max-width: 568px;
   clear: both;
 }
 
