@@ -298,7 +298,7 @@ img
 {
     border: 0px;
 }
-table#timetable {
+table.timetable {
   text-align: center;
   border-spacing: 2px;
 }
@@ -334,7 +334,7 @@ span.speaker {
   font-style: italic;
 }
 
-div#poster-key {
+div.session-key {
   margin-right: -9px;
 }
 
@@ -354,7 +354,7 @@ td.intro, td.closing {
   background-color:#FFB403;
 }
 
-td.sess1, td.sess2, td.sess3, td.sess4 {
+td.sess0, td.sess1, td.sess2, td.sess3, td.sess4 {
   border-left: 18px solid;
   padding: 4px 18px 5px 2px;
 }
@@ -365,6 +365,9 @@ div.lunch, div.break, div.reception, div.reg
 }
 div.sess1, td.sess1 {
   border-color:#ffb30f;
+}
+div.sess0, td.sess0 {
+  border-color:#EBEBE0;
 }
 div.sess2, td.sess2 {
   border-color: #56b4e9;
