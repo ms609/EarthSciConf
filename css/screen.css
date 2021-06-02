@@ -326,7 +326,7 @@ td.reg
   text-align: center;
 }
 
-span.talk-title {
+span.talk-title,a.talk-title {
   display: block;
 }
 span.speaker {
