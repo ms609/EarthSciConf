@@ -45,7 +45,7 @@ div#top
 {
   background-image: url(../images/header-background.jpg);
   background-repeat: no-repeat;
-	height: 279px; 
+	height: 279px;
 	padding-left: 18px;
 	padding-right: 162px;
   padding-top: 18px;
@@ -108,12 +108,12 @@ a#hashtag-logo {
   position: absolute;
   bottom: 0px;
   right: 18px;
-  
+
   background: url(../images/Twitter_Logo_WhiteOnImage.png) no-repeat;
   background-size: 36px;
   line-height: 36px;
   padding-left: 36px;
-  
+
   color: white;
   text-decoration: none;
   font-size: 14px;
@@ -122,13 +122,13 @@ a#hashtag-logo {
 
 div#menu a#hashtag {
   float: right;
-  
+
   background: url(../images/Twitter_Logo_Blue.svg) no-repeat;
   background-size: 36px;
   line-height: 36px;
   padding-left: 36px;
   margin-right: 0;
-  
+
   color: white;
 }
 
@@ -199,7 +199,7 @@ a.logo_before {
     content: "";
     display: inline-block;
     height: 100%;
-    vertical-align: middle;  
+    vertical-align: middle;
 }
 
 div#sponsor-logos a img {
@@ -278,7 +278,7 @@ h3
 p
 {
 	margin: 0px auto;
-	padding: 0px;	
+	padding: 0px;
 	margin-top: 0.75em;
 }
 a, a:visited, a:link, a:active, a:hover
@@ -354,7 +354,7 @@ td.intro, td.closing {
   background-color:#FFB403;
 }
 
-td.sess0, td.sess1, td.sess2, td.sess3, td.sess4 {
+td.sess0, td.sess1, td.sess2, td.sess3, td.sess4, td.sess5, td.sess6, td.sess7 {
   border-left: 18px solid;
   padding: 4px 18px 5px 2px;
 }
@@ -378,17 +378,26 @@ div.sess3, td.sess3 {
 div.sess4, td.sess4 {
   border-color: #f0e442;
 }
+div.sess5, td.sess5 {
+  border-color: #0072B2;
+}
+div.sess6, td.sess6 {
+  border-color: #D55E00;
+}
+div.sess7, td.sess7 {
+  border-color: #CC79A7;
+}
 
 @media print {
   div#menu, div#menu *, a#ahgs-logo, a#du-logo {
     display: none !important;
   }
-  
+
   div#top, div#footer {
     height: inherit;
     background: transparent !important;
   }
-  
+
   div #footer a {
     text-shadow: none !important;
     position: relative !important;
